@@ -41,7 +41,7 @@ class m170521_180042_create_patients_table extends Migration
             'MaritalStatuslId',
             'matrialStatus',
             'id',
-            'CASCADE'
+            'NO ACTION'
         );
 
         // creates index for column `professionId`
@@ -58,7 +58,7 @@ class m170521_180042_create_patients_table extends Migration
             'professionId',
             'profession',
             'id',
-            'CASCADE'
+            'NO ACTION'
         );
     }
 
