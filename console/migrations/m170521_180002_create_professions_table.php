@@ -5,7 +5,7 @@ use yii\db\Migration;
 /**
  * Handles the creation of table `profession`.
  */
-class m170521_180002_create_profession_table extends Migration
+class m170521_180002_create_professions_table extends Migration
 {
     /**
      * @inheritdoc

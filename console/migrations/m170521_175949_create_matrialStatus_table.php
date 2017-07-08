@@ -23,14 +23,13 @@ class m170521_175949_create_matrialStatus_table extends Migration
         ];
 
         $values = [
-            [1, 'solteiro(a)'],
-            [2, 'casado(a)'],
-            [3, 'divorciado(a)'],
-            [4, 'casado(a)'],
-            [5, 'desquitado(a)'],
-        ]
+            [1, 'Solteiro(a)'],
+            [2, 'Casado(a)'],
+            [3, 'Divorciado(a)'],
+            [5, 'Desquitado(a)'],
+        ];
 
-        $this->batchInsert('cities', $columns, $values);
+        $this->batchInsert('matrialStatus', $columns, $values);
     }
 
     /**

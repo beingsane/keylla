@@ -18,7 +18,7 @@ class m170521_180042_create_patients_table extends Migration
     {
         $this->createTable('patients', [
             'id' => $this->primaryKey(),
-            'MaritalStatuslId' => $this->integer()->notNull(),
+            'maritalStatusId' => $this->integer()->notNull(),
             'professionId' => $this->integer()->notNull(),
             'name' => $this->string(180)->notNull(),
             'bornDate' => $this->date()->notNull(),
